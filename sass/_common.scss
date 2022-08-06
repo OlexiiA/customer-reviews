@@ -1,0 +1,40 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
+}
+
+// reset
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul>li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

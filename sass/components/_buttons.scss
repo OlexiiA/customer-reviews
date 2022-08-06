@@ -1,0 +1,60 @@
+.button {
+  font-family: inherit;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  // height: 44px;
+
+  @include font(700, 16px, 21px, 0);
+  text-align: center;
+
+  border-radius: 50%;
+  border: none;
+
+  transform: scale(1);
+  transition: color var(--trasition-fast), background-color var(--trasition-fast), transform var(--trasition-fast);
+  cursor: pointer;
+
+  &__main {
+    color: var(--main-clr);
+    background-color: #fff;
+
+    &:hover,
+    &:focus {
+      background-color: var(--hover-clr);
+      transform: scale(1.1);
+    }
+  }
+
+  &__secondary {
+    color: #fff;
+    background-color: var(--main-clr);
+    ;
+
+    &:hover,
+    &:focus {
+      background-color: var(--pink);
+      transform: scale(1.1);
+    }
+  }
+}
+
+.button-circle {
+  display: flex;
+  vertical-align: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  border: none;
+
+  color: var(--main-clr);
+  background-color: #fff;
+
+  transform: scale(1);
+  transition: transform var(--trasition-fast);
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    transform: scale(1.2);
+  }
+}

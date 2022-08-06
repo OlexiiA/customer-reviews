@@ -1,0 +1,30 @@
+  :root {
+    // colors
+    --main-clr: #D41443;
+    --secondary-clr: #FFA5BA;
+    --bg-clr: #FFF5F6;
+    --pink: #FFB8CA;
+    --latte: #F0D1A5;
+    --green: #C2E297;
+    --reviews-bg: #E1E1E1;
+    --reviews-points: #D9D9D9;
+    --txt-clr: #907E82;
+    --socials-clr: #FEA5BB;
+    --hover-clr: #ECEBEB;
+    // breakpoints
+    // --mobile: 320px;
+    // --tablet: 768px;
+    // --comp: 1200px;
+    // other
+    --trasition-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --trasition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    // пользоваться: прописываете transition: "анимируемое свойство №1" var(--trasition-fast), "анимируемое свойство №2" var(--trasition-slow), и т.д.;
+  }
+
+    // breakpoints
+    $mobile: 320px;
+    $tablet: 768px;
+    $comp: 1200px;
+
+
+  // цвета белый и черный добавляем в код как #fff и #000
