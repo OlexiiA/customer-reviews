@@ -175,6 +175,130 @@ a {
           transform: scale(1.2);
 }
 
+.img {
+  margin: auto;
+  margin-bottom: 32px;
+}
+@media screen and (min-width: 768px) {
+  .img {
+    max-width: 768px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .img {
+    max-width: 1200px;
+    margin-bottom: 16px;
+  }
+}
+
+.text_1 {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 255%;
+  /* or 31px */
+  text-align: center;
+  padding: 43px 58px 26px 65px;
+  margin-bottom: 16px;
+  letter-spacing: 0.04em;
+  position: relative;
+  z-index: 5;
+  background-image: repeating-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 28px, #e1e1e1 29px, #e1e1e1 30px);
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.quotes_1 {
+  fill: var(--reviews-bg);
+  position: absolute;
+  width: 54px;
+  height: 40px;
+  top: 29px;
+  left: 55px;
+}
+
+.blok_1 {
+  position: relative;
+  background-color: #FAFAFA;
+}
+
+.text_2 {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 255%;
+  /* or 31px */
+  text-align: center;
+  padding: 43px 58px 26px 65px;
+  margin-bottom: 16px;
+  letter-spacing: 0.04em;
+  position: relative;
+  z-index: 5;
+  background-image: repeating-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 28px, #e1e1e1 29px, #e1e1e1 30px);
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.quotes_2 {
+  fill: var(--reviews-bg);
+  position: absolute;
+  width: 54px;
+  height: 40px;
+  top: 29px;
+  left: 55px;
+}
+
+.blok_2 {
+  position: relative;
+  background-color: #FAFAFA;
+}
+
+.text_3 {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 255%;
+  /* or 31px */
+  text-align: center;
+  padding: 43px 58px 26px 65px;
+  margin-bottom: 16px;
+  letter-spacing: 0.04em;
+  position: relative;
+  z-index: 5;
+  background-image: repeating-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 28px, #e1e1e1 29px, #e1e1e1 30px);
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.quotes_3 {
+  fill: var(--reviews-bg);
+  position: absolute;
+  left: 55px;
+  width: 54px;
+  top: 29px;
+  left: 55px;
+  z-index: 1;
+}
+
+.blok_3 {
+  position: relative;
+  background-color: #FAFAFA;
+}
+
+.dots {
+  margin: 0 auto;
+  fill: C7133E;
+}
+
+.name {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
 .asdf {
   color: var(--pink);
 }/*# sourceMappingURL=index.css.map */
