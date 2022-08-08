@@ -79,7 +79,6 @@ a {
   padding: 0 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 320px;
 }
 @media (min-width: 320px) {
   .container-bottom {
@@ -89,12 +88,15 @@ a {
 @media screen and (min-width: 768px) {
   .container-bottom {
     max-width: 768px;
-    padding: 0 16px;
+    padding: 0 74px;
+    width: none;
   }
 }
 @media screen and (min-width: 1200px) {
   .container-bottom {
     max-width: 1200px;
+    max-width: 1200px;
+    padding: 0 116px;
   }
 }
 
@@ -214,12 +216,14 @@ a {
     max-width: 768px;
     font-size: 14px;
     line-height: 2.1428571429;
-    margin: 37px 55px 44px 51px;
   }
 }
 @media screen and (min-width: 1200px) {
   .text_1 {
     max-width: 1200px;
+    margin: 47px 109px 39px 109px;
+    font-size: 16px;
+    line-height: 1.875;
   }
 }
 
@@ -229,7 +233,19 @@ a {
   width: 54px;
   height: 40px;
   top: -15px;
-  left: 55px;
+  left: 22px;
+}
+@media screen and (min-width: 768px) {
+  .quotes_1 {
+    max-width: 768px;
+    left: 35px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .quotes_1 {
+    max-width: 1200px;
+    left: 73px;
+  }
 }
 
 .blok_1 {
@@ -254,6 +270,21 @@ a {
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+@media screen and (min-width: 768px) {
+  .text_2 {
+    max-width: 768px;
+    font-size: 14px;
+    line-height: 2.1428571429;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .text_2 {
+    max-width: 1200px;
+    margin: 47px 109px 39px 109px;
+    font-size: 16px;
+    line-height: 1.875;
+  }
+}
 
 .quotes_2 {
   fill: var(--reviews-bg);
@@ -261,7 +292,18 @@ a {
   width: 54px;
   height: 40px;
   top: -15px;
-  left: 55px;
+  left: 28px;
+}
+@media screen and (min-width: 768px) {
+  .quotes_2 {
+    left: 22px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .quotes_2 {
+    max-width: 1200px;
+    left: 64px;
+  }
 }
 
 .blok_2 {
@@ -286,15 +328,43 @@ a {
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+@media screen and (min-width: 768px) {
+  .text_3 {
+    max-width: 768px;
+    font-size: 14px;
+    line-height: 2.1428571429;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .text_3 {
+    max-width: 1200px;
+    margin: 47px 109px 39px 109px;
+    font-size: 16px;
+    line-height: 1.875;
+  }
+}
 
 .quotes_3 {
   fill: var(--reviews-bg);
   position: absolute;
   left: 55px;
   width: 54px;
+  height: 40px;
   top: -15px;
-  left: 55px;
+  left: 23px;
   z-index: 1;
+}
+@media screen and (min-width: 768px) {
+  .quotes_3 {
+    max-width: 768px;
+    left: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .quotes_3 {
+    max-width: 1200px;
+    left: 63px;
+  }
 }
 
 .blok_3 {

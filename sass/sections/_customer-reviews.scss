@@ -19,7 +19,7 @@
 .text_1 {
 
     font-family: inherit;
-        font-style: normal;
+    font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: calc(31 / 12);
@@ -34,17 +34,19 @@
     z-index: 5;
 
     background-image: repeating-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 28px, #e1e1e1 29px, #e1e1e1 30px);
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   
-@media screen and (min-width: $tablet) {
+    @media screen and (min-width: $tablet) {
         max-width: $tablet;
         font-size: 14px;
-            line-height: calc(30 / 14);
-            margin: 37px 55px 44px 51px;
+        line-height: calc(30 / 14);
     }
 
     @media screen and (min-width: $comp) {
         max-width: $comp;
+        margin: 47px 109px 39px 109px;
+        font-size: 16px;
+        line-height: calc(30 / 16);
     }
 
 }
@@ -52,35 +54,58 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 .quotes_1 {
     fill: var(--reviews-bg);
     position: absolute;
-width: 54px;
+    width: 54px;
     height: 40px;
-        top: -15px;
-            left: 55px;
-    
+    top: -15px;
+    left: 22px;
+
+    @media screen and (min-width: $tablet) {
+        max-width: $tablet;
+        left: 35px;
+    }
+        @media screen and (min-width: $comp) {
+            max-width: $comp;
+            left: 73px;
+        }
 }
 
 .blok_1 {
     position: relative;
     background-color: #FAFAFA;
+
+    
 }
 
 .text_2 {
     font-family: inherit;
-        font-style: normal;
+    font-style: normal;
     font-weight: 500;
-        font-size: 12px;
-        line-height: 255%;
+    font-size: 12px;
+    line-height: 255%;
         /* or 31px */
-        text-align: center;
+    text-align: center;
     
-        margin: 43px 58px 26px 65px;
-        margin-bottom: 16px;
-        letter-spacing: 0.04em;
+    margin: 43px 58px 26px 65px;
+    margin-bottom: 16px;
+    letter-spacing: 0.04em;
     
-        position: relative;
-        z-index: 5;
-background-image: repeating-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 28px, #e1e1e1 29px, #e1e1e1 30px);
+    position: relative;
+    z-index: 5;
+    background-image: repeating-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 28px, #e1e1e1 29px, #e1e1e1 30px);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    @media screen and (min-width: $tablet) {
+            max-width: $tablet;
+            font-size: 14px;
+            line-height: calc(30 / 14);
+        }
+
+                 @media screen and (min-width: $comp) {
+                     max-width: $comp;
+                     margin: 47px 109px 39px 109px;
+                     font-size: 16px;
+                     line-height: calc(30 / 16);
+                 }
 
 }
 
@@ -89,34 +114,57 @@ background-image: repeating-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 2
     position: absolute;
     width: 54px;
     height: 40px;
-        top: -15px;
-            left: 55px;
+    top: -15px;
+    left: 28px;
+
+    @media screen and (min-width: $tablet) {
+            left: 22px;
+        }
+@media screen and (min-width: $comp) {
+        max-width: $comp;
+        left: 64px;
+    }
+   
+   
 }
 
 .blok_2 {
     position: relative;
     background-color: #FAFAFA;
+   
 }
 
 .text_3 {
     font-family: inherit;
     font-style: normal;
     font-weight: 500;
-        font-size: 12px;
-        line-height: 255%;
+    font-size: 12px;
+    line-height: 255%;
         /* or 31px */
-        text-align: center;
+    text-align: center;
     
-        margin: 43px 58px 26px 65px;
-        margin-bottom: 16px;
-        letter-spacing: 0.04em;
+    margin: 43px 58px 26px 65px;
+    margin-bottom: 16px;
+    letter-spacing: 0.04em;
     
-        position: relative;
-        z-index: 5;
+    position: relative;
+    z-index: 5;
 
     background-image: repeating-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 28px, #e1e1e1 29px, #e1e1e1 30px);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  
+
+    @media screen and (min-width: $tablet) {
+        max-width: $tablet;
+        font-size: 14px;
+        line-height: calc(30 / 14);
+    }
+
+         @media screen and (min-width: $comp) {
+             max-width: $comp;
+             margin: 47px 109px 39px 109px;
+             font-size: 16px;
+             line-height: calc(30 / 16);
+         }
 }
 
 .quotes_3 {
@@ -124,9 +172,20 @@ background-image: repeating-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 2
     position: absolute;
     left: 55px;
     width: 54px;
-        top: -15px;
-            left: 55px;
+    height: 40px;
+    top: -15px;
+    left: 23px;
     z-index: 1;
+
+    @media screen and (min-width: $tablet) {
+        max-width: $tablet;
+        left: 20px;
+        }
+
+                @media screen and (min-width: $comp) {
+                    max-width: $comp;
+                    left: 63px;
+                }
 }
 
 .blok_3 {
