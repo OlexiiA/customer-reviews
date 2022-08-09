@@ -206,7 +206,7 @@ a {
   margin-bottom: 16px;
   letter-spacing: 0.04em;
   position: relative;
-  z-index: 5;
+  z-index: 4;
   background-image: repeating-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 28px, #e1e1e1 29px, #e1e1e1 30px);
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -265,7 +265,7 @@ a {
   margin-bottom: 16px;
   letter-spacing: 0.04em;
   position: relative;
-  z-index: 5;
+  z-index: 4;
   background-image: repeating-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 28px, #e1e1e1 29px, #e1e1e1 30px);
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -323,7 +323,7 @@ a {
   margin-bottom: 16px;
   letter-spacing: 0.04em;
   position: relative;
-  z-index: 5;
+  z-index: 4;
   background-image: repeating-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 28px, #e1e1e1 29px, #e1e1e1 30px);
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -385,6 +385,21 @@ a {
 .name {
   text-align: center;
   margin-bottom: 16px;
+}
+
+.house {
+  width: 12px;
+  height: 10px;
+  fill: #C7133E;
+}
+
+.icon_house {
+  position: absolute;
+  top: 450px;
+  left: 123px;
+  width: 15px;
+  height: 15px;
+  background-color: #FAFAFA;
 }
 
 .asdf {
